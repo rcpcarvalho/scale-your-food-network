@@ -10,7 +10,7 @@ const DifferentialsSection = () => {
       icon: foodServiceIcon,
       emoji: "🧠",
       title: "Especialização em Food Service e Delivery",
-      description: "Know-how focado em restaurantes, lanchonetes e operações alimentícias."
+      description: "Know-how focado em bares, restaurantes, lanchonetes, padarias e demais estabelecimentos do setor alimenticio."
     },
     {
       icon: scaleIcon,
@@ -28,7 +28,7 @@ const DifferentialsSection = () => {
       icon: techIcon,
       emoji: "🚀",
       title: "Tecnologia e Desburocratização",
-      description: "Integrações por API, tombamento automatizado de cardápios e consulta a fontes públicas."
+      description: "Integrações com diversas fontes de dados, tombamento automatizado de cardápios e redução de todas barreiras possíveis de implementação."
     }
   ];
 
