@@ -21,7 +21,7 @@ const Hero = () => {
             <img 
               src={logoImage} 
               alt="ScaleNet Logo" 
-              className="h-32 md:h-48 w-auto mx-auto filter brightness-0 invert"
+              className="h-64 md:h-96 w-auto mx-auto filter brightness-0 invert"
             />
           </div>
           <p className="text-xl md:text-2xl mb-4 font-medium">
