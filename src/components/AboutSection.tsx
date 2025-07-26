@@ -1,6 +1,5 @@
 const AboutSection = () => {
-  return (
-    <section className="py-20 bg-background">
+  return <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">
@@ -12,15 +11,10 @@ const AboutSection = () => {
               A ScaleNet nasceu para resolver um desafio real: credenciar e integrar estabelecimentos 
               no ecossistema de food service com velocidade, inteligência e retorno.
             </p>
-            <p>
-              Atuamos como parceiro estratégico na construção de redes credenciadas para marcas, 
-              fintechs, startups e soluções do setor alimentício.
-            </p>
+            <p>Atuamos como parceiro estratégico na construção de redes credenciadas para marcas, fintechs, startups e soluções food service & delivery.</p>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
