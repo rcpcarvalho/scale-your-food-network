@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "/lovable-uploads/4ea1beba-cc35-4b22-9f2e-994095809119.png";
+import logoImage from "/lovable-uploads/712bcb8f-d4bb-448b-b767-9c5d878c07a0.png";
 
 const Hero = () => {
   return (
@@ -10,6 +11,15 @@ const Hero = () => {
         style={{ backgroundImage: `url(${heroImage})` }}
       >
         <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
+      </div>
+      
+      {/* Logo */}
+      <div className="absolute top-8 left-8 z-20">
+        <img 
+          src={logoImage} 
+          alt="ScaleNet Logo" 
+          className="h-12 w-auto filter brightness-0 invert"
+        />
       </div>
       
       {/* Content */}
