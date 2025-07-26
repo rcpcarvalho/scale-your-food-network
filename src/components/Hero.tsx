@@ -13,21 +13,17 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
       </div>
       
-      {/* Logo */}
-      <div className="absolute top-8 left-8 z-20">
-        <img 
-          src={logoImage} 
-          alt="ScaleNet Logo" 
-          className="h-12 w-auto filter brightness-0 invert"
-        />
-      </div>
-      
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            ScaleNet
-          </h1>
+          {/* Logo centralizado */}
+          <div className="mb-8">
+            <img 
+              src={logoImage} 
+              alt="ScaleNet Logo" 
+              className="h-24 md:h-32 w-auto mx-auto filter brightness-0 invert"
+            />
+          </div>
           <p className="text-xl md:text-2xl mb-4 font-medium">
             A rede credenciada que acelera o seu negócio no food service e delivery
           </p>
