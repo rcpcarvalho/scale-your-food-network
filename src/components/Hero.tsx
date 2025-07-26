@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "/lovable-uploads/4ea1beba-cc35-4b22-9f2e-994095809119.png";
-import logoImage from "/lovable-uploads/712bcb8f-d4bb-448b-b767-9c5d878c07a0.png";
 
 const Hero = () => {
   return (
@@ -16,14 +15,9 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
-          {/* Logo centralizado */}
-          <div className="mb-8">
-            <img 
-              src={logoImage} 
-              alt="ScaleNet Logo" 
-              className="h-64 md:h-96 w-auto mx-auto filter brightness-0 invert"
-            />
-          </div>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            ScaleNet
+          </h1>
           <p className="text-xl md:text-2xl mb-4 font-medium">
             A rede credenciada que acelera o seu negócio no food service e delivery
           </p>
