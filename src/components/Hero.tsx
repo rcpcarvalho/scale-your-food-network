@@ -15,6 +15,13 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
+          <div className="mb-6 flex justify-center">
+            <img 
+              src="/lovable-uploads/0d084c08-dba3-4c81-9aaf-78a0e96c54a2.png" 
+              alt="ScaleNet Logo" 
+              className="h-24 md:h-32 w-auto"
+            />
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             ScaleNet
           </h1>
