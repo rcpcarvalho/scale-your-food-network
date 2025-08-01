@@ -22,9 +22,6 @@ const Hero = () => {
               className="h-24 md:h-32 w-auto"
             />
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            ScaleNet
-          </h1>
           <p className="text-xl md:text-2xl mb-4 font-medium">
             A rede credenciada que acelera o seu negócio no food service e delivery
           </p>
@@ -33,20 +30,13 @@ const Hero = () => {
             Tudo que você precisa para expandir sua rede com eficiência e sem burocracia.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex justify-center">
             <Button 
               variant="hero" 
               size="xl"
               onClick={() => window.open('https://wa.me/5511952158479?text=Quero%20credenciar%20minha%20rede', '_blank')}
             >
               Quero credenciar minha rede
-            </Button>
-            <Button 
-              variant="outline" 
-              size="xl"
-              className="bg-white/10 border-white/30 text-white hover:bg-white/20"
-            >
-              Saiba mais
             </Button>
           </div>
         </div>
