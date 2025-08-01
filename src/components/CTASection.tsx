@@ -18,7 +18,7 @@ const CTASection = () => {
               variant="hero" 
               size="xl"
               className="bg-white text-primary hover:bg-white/90"
-              onClick={() => window.open('https://wa.me/5511999999999?text=Quero%20falar%20com%20a%20ScaleNet', '_blank')}
+              onClick={() => window.open('https://wa.me/5511952158479?text=Quero%20falar%20com%20a%20ScaleNet', '_blank')}
             >
               Fale com a ScaleNet
             </Button>

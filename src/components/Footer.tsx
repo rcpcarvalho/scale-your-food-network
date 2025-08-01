@@ -10,12 +10,12 @@ const Footer = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <a 
-              href="https://wa.me/5511999999999" 
+              href="https://wa.me/5511952158479" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-white/80 hover:text-white transition-colors"
             >
-              WhatsApp: (11) 99999-9999
+              WhatsApp: (11) 95215-8479
             </a>
             <span className="hidden sm:block text-white/40">|</span>
             <a 

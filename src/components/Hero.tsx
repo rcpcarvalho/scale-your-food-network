@@ -3,7 +3,7 @@ import heroImage from "/lovable-uploads/4ea1beba-cc35-4b22-9f2e-994095809119.png
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -37,7 +37,7 @@ const Hero = () => {
             <Button 
               variant="hero" 
               size="xl"
-              onClick={() => window.open('https://wa.me/5511999999999?text=Quero%20credenciar%20minha%20rede', '_blank')}
+              onClick={() => window.open('https://wa.me/5511952158479?text=Quero%20credenciar%20minha%20rede', '_blank')}
             >
               Quero credenciar minha rede
             </Button>
